@@ -81,6 +81,8 @@ Decisions that complement `requirements.md`. Update this file when a decision ch
 
 - API errors use RFC 9457 `ProblemDetail`.
 - Validation errors include an `errors` object (field name → message).
+- The backend locale is fixed to English (`spring.web.locale-resolver: fixed`), so messages match the English UI
+  regardless of the browser or system language.
 - Technical details are logged on the server and not shown in the UI.
 - If the external catalog is unavailable, the backend returns `502` and the user can still add the book manually.
 

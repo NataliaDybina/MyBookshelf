@@ -7,7 +7,10 @@
   --color-text: #2b2620;
   --color-muted: #7a7065;
   --color-accent: #8b5e34;
+  --color-accent-hover: #6f4a28;
   --color-border: #e6ded3;
+  --color-danger: #b42318;
+  --color-danger-soft: #fdecea;
 }
 
 body {
