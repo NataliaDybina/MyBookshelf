@@ -1,0 +1,17 @@
+# Local-only project memory
+docs/memory.md
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Build output and dependencies
+node_modules/
+dist/
+target/
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store
