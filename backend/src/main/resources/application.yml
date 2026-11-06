@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: my-bookshelf
+  # Local development: load variables from the project-root .env (see .env.example).
+  config:
+    import: optional:file:../.env[.properties]
+  mongodb:
+    # Fallback keeps tests and startup working without a .env; real value comes from MONGODB_URI.
+    uri: ${MONGODB_URI:mongodb://localhost:27017/bookshelf}

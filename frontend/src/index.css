@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+/* Theme colors: components use these instead of hard-coded colors. */
+@theme {
+  --color-page: #faf7f2;
+  --color-surface: #ffffff;
+  --color-text: #2b2620;
+  --color-muted: #7a7065;
+  --color-accent: #8b5e34;
+  --color-border: #e6ded3;
+}
+
+body {
+  @apply bg-page text-text antialiased;
+}

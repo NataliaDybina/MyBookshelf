@@ -32,7 +32,7 @@ If a requested change conflicts with these documents, point out the conflict bef
 ### Backend
 
 - Java 25
-- Spring Boot 4.1.1
+- Spring Boot 4.1.2
 - Maven
 - Lombok
 - Spring Web
